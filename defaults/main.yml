@@ -1,0 +1,14 @@
+#SPDX-License-Identifier: MIT-0
+---
+packages:
+    - gcc
+    - python3
+    - python3-pip
+    - tmux
+    - btop
+    - ncdu
+    - net-tools
+    - vim
+    - curl
+    - wget
+    - git 
