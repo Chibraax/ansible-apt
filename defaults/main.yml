@@ -1,9 +1,10 @@
-#SPDX-License-Identifier: MIT-0
 ---
 packages:
     - gcc
     - python3
     - python3-pip
+    - python3-venv
+    - sudo
     - tmux
     - btop
     - ncdu
@@ -11,4 +12,5 @@ packages:
     - vim
     - curl
     - wget
-    - git 
+    - git
+    - tree
