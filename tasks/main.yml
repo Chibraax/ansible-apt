@@ -5,7 +5,7 @@
   tags: apt
 
 - name: "Role for install all required packages"
-  ansible.builtin.apt:
+  ansible.builtin.package:
     name: "{{ item }}"
     state: present
   loop: "{{ packages }}"
